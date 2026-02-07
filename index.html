@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rose Day 🌹</title>
+
+<style>
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#ff4d6d,#ffb3c6);
+  font-family:'Segoe UI',sans-serif;
+}
+
+.card{
+  background:white;
+  padding:50px;
+  border-radius:30px;
+  text-align:center;
+  box-shadow:0 30px 60px rgba(0,0,0,0.3);
+}
+
+h1{
+  color:#e63946;
+  font-size:34px;
+}
+
+p{
+  font-size:18px;
+  color:#444;
+}
+
+button{
+  margin-top:25px;
+  padding:15px 35px;
+  border:none;
+  border-radius:40px;
+  background:#e63946;
+  color:white;
+  font-size:17px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.1);
+  background:#c92a36;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+  <h1>Hey My Love</h1>
+  <p>
+    This rose is special,<br>
+    just like you ❤️
+  </p>
+
+  <button onclick="goNext()">This is for you 💝</button>
+</div>
+
+<script>
+function goNext(){
+  window.location.href = "rose.html";
+}
+</script>
+</body>
+</html>
